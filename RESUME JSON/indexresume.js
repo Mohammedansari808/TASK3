@@ -11,9 +11,11 @@ let resu = Object.entries(resume);
 for (let res of resu){
     console.log(`${res[0]} : ${res[1]}`)
 }
-
-let personal ={
+let  pers_onal ={
     "pers" : "PERSONAL DETAILS",
+}
+console.log(pers_onal.pers);
+let personal ={
     "Date of Birth"  :    "15/03/1998",
 	"Gender"         :         "Male",
 	"Marital status" :       "Single",
