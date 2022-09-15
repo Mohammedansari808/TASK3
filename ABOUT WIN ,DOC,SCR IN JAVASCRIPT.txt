@@ -1,0 +1,29 @@
+
+
+
+WINDOW IN JAVASCRIPT
+-> Window is the main JavaScript object root, and it is the global object in a browser, and it can also be treated as the
+     root of the document object model. 
+ ->Window has the majority of the properties like length, innerWidth, innerHeight, name, if it has been 
+    closed, its parents, and more.
+-> The window contains everything, so you can call window.screen and window.document to get those elements
+
+
+SCREEN IN JAVASCRIPT
+->window.screen or just screen is a small information object about physical screen dimensions.
+->The window object also has a screen object with properties describing the physical display:
+->screen properties width and height are the full screen.
+->screen properties availWidth and availHeight omit the toolbar.
+->The portion of a screen displaying the rendered document is the viewport in JavaScript, 
+ ->The getBoundingClientRect() method of any document element will return an object with
+ ->top, left, bottom, and right properties describing the location of the element in the viewport.
+
+DOCUMENT IN JAVASCRIPT
+->window.document or just document is the main object of the potentially visible document
+   object model or DOM.
+->The document actually gets loaded inside the window object and has properties available
+    to it like title, URL, cookie, etc.
+->Since window is the global object, you can reference any properties of it with just the property name . 
+    so we do not have to write down window.
+FOR EXAMPLE :
+    document. == window.document both are same
